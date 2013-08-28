@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="4504" systemVersion="13A558" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment defaultVersion="1080" identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="4504"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="LoginWindowController">
+            <connections>
+                <outlet property="loginWindow" destination="1" id="141"/>
+                <outlet property="passwordTextField" destination="113" id="136"/>
+                <outlet property="usernameTextField" destination="107" id="135"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application"/>
+        <window title="Github Userinfo Needed" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" wantsToBeColor="NO" visibleAtLaunch="NO" animationBehavior="default" id="1">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="550" y="250" width="355" height="170"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1178"/>
+            <view key="contentView" toolTip="Your userinfo will not be misused by this plugin. I promise:-D" id="2">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="14">
+                        <rect key="frame" x="18" y="116" width="71" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Username:" id="15">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="18">
+                        <rect key="frame" x="18" y="69" width="66" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Password:" id="19">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="72">
+                        <rect key="frame" x="248" y="7" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="100"/>
+                        </constraints>
+                        <buttonCell key="cell" type="push" title="Ok" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="73">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="loginButtonPushed:" target="-2" id="105"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="77">
+                        <rect key="frame" x="166" y="7" width="82" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <buttonCell key="cell" type="push" title="Cancel" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="78">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                            <string key="keyEquivalent" base64-UTF8="YES">
+Gw
+</string>
+                        </buttonCell>
+                        <connections>
+                            <action selector="cancelButtonPushed:" target="-2" id="95"/>
+                        </connections>
+                    </button>
+                    <textField toolTip="Your userinfo will not be misused by this plugin. I promise:-D" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="85">
+                        <rect key="frame" x="18" y="141" width="308" height="17"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Your GitHub user info is needed to create a Gist." id="86">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="107">
+                        <rect key="frame" x="20" y="92" width="304" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" placeholderString="" drawsBackground="YES" id="108">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <secureTextField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="113">
+                        <rect key="frame" x="20" y="43" width="304" height="22"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" borderStyle="bezel" placeholderString="" drawsBackground="YES" usesSingleLineMode="YES" id="114">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                            <connections>
+                                <action selector="selector:" target="-2" id="137"/>
+                            </connections>
+                        </secureTextFieldCell>
+                    </secureTextField>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="18" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="38"/>
+                    <constraint firstItem="14" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="40"/>
+                    <constraint firstItem="85" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="89"/>
+                    <constraint firstItem="14" firstAttribute="top" secondItem="85" secondAttribute="bottom" constant="8" symbolic="YES" id="90"/>
+                    <constraint firstItem="85" firstAttribute="top" secondItem="2" secondAttribute="top" constant="12" id="91"/>
+                    <constraint firstItem="72" firstAttribute="leading" secondItem="77" secondAttribute="trailing" constant="12" symbolic="YES" id="103"/>
+                    <constraint firstItem="107" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="111"/>
+                    <constraint firstItem="113" firstAttribute="leading" secondItem="2" secondAttribute="leading" constant="20" symbolic="YES" id="117"/>
+                    <constraint firstItem="107" firstAttribute="trailing" secondItem="85" secondAttribute="trailing" id="138"/>
+                    <constraint firstItem="113" firstAttribute="trailing" secondItem="72" secondAttribute="trailing" id="139"/>
+                    <constraint firstItem="113" firstAttribute="trailing" secondItem="107" secondAttribute="trailing" id="140"/>
+                    <constraint firstItem="18" firstAttribute="top" secondItem="2" secondAttribute="top" constant="84" id="142"/>
+                    <constraint firstItem="107" firstAttribute="top" secondItem="2" secondAttribute="top" constant="56" id="144"/>
+                    <constraint firstItem="113" firstAttribute="top" secondItem="2" secondAttribute="top" constant="105" id="147"/>
+                    <constraint firstItem="77" firstAttribute="top" secondItem="113" secondAttribute="bottom" constant="8" symbolic="YES" id="150"/>
+                    <constraint firstItem="72" firstAttribute="baseline" secondItem="77" secondAttribute="baseline" id="152"/>
+                </constraints>
+            </view>
+        </window>
+    </objects>
+</document>

@@ -1,0 +1,5 @@
+#include "Pods-UAGithubEngine.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/BuildHeaders" "${PODS_ROOT}/BuildHeaders/UAGithubEngine" "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/UAGithubEngine"
+OTHER_LDFLAGS = -ObjC ${PODS_UAGITHUBENGINE_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}

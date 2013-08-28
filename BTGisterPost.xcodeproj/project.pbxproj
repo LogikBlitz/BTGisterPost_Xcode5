@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8219B5B317CE18CF0016E1EE /* Gist.m in Sources */ = {isa = PBXBuildFile; fileRef = 8219B5B217CE18CF0016E1EE /* Gist.m */; };
+		826C463817CDF54400475425 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826C463717CDF54400475425 /* AppKit.framework */; };
+		826C463A17CDF54400475425 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 826C463917CDF54400475425 /* Foundation.framework */; };
+		826C464017CDF54400475425 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 826C463E17CDF54400475425 /* InfoPlist.strings */; };
+		826C464317CDF54400475425 /* BTGisterPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 826C464217CDF54400475425 /* BTGisterPost.m */; };
+		826E930217CE1B3600E51514 /* NetworkReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 826E930117CE1B3600E51514 /* NetworkReachability.m */; };
+		82A9BD8C17CE18350048C15C /* NSAlert+EasyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A9BD8B17CE18350048C15C /* NSAlert+EasyAlert.m */; };
+		82B8266C17CE1C550012195B /* GisterPostWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82B8266A17CE1C550012195B /* GisterPostWindow.xib */; };
+		82B8266D17CE1C550012195B /* LoginWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82B8266B17CE1C550012195B /* LoginWindow.xib */; };
+		82D075D317CE1683002D884D /* GisterPostWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82D075D217CE1683002D884D /* GisterPostWindowController.m */; };
+		82DB2FDC17CE1C9200A27BC1 /* LoginWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DB2FDB17CE1C9200A27BC1 /* LoginWindowController.m */; };
+		82E96DAE17CE1A75005A936D /* GitHubUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 82E96DAD17CE1A75005A936D /* GitHubUserInfo.m */; };
+		F3ADFA89AE144E8E8041C1C7 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 618325C7413F46188376DCEB /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39FBF1B603894D17B2BCC793 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		618325C7413F46188376DCEB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		8219B5B117CE18CF0016E1EE /* Gist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gist.h; sourceTree = "<group>"; };
+		8219B5B217CE18CF0016E1EE /* Gist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gist.m; sourceTree = "<group>"; };
+		826C463417CDF54400475425 /* BTGisterPost.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTGisterPost.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		826C463717CDF54400475425 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		826C463917CDF54400475425 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		826C463D17CDF54400475425 /* BTGisterPost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTGisterPost-Info.plist"; sourceTree = "<group>"; };
+		826C463F17CDF54400475425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		826C464117CDF54400475425 /* BTGisterPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTGisterPost.h; sourceTree = "<group>"; };
+		826C464217CDF54400475425 /* BTGisterPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTGisterPost.m; sourceTree = "<group>"; };
+		826C464417CDF54400475425 /* BTGisterPost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTGisterPost-Prefix.pch"; sourceTree = "<group>"; };
+		826E930017CE1B3600E51514 /* NetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkReachability.h; sourceTree = "<group>"; };
+		826E930117CE1B3600E51514 /* NetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkReachability.m; sourceTree = "<group>"; };
+		82A9BD8A17CE18350048C15C /* NSAlert+EasyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+EasyAlert.h"; sourceTree = "<group>"; };
+		82A9BD8B17CE18350048C15C /* NSAlert+EasyAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAlert+EasyAlert.m"; sourceTree = "<group>"; };
+		82B8266A17CE1C550012195B /* GisterPostWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GisterPostWindow.xib; sourceTree = "<group>"; };
+		82B8266B17CE1C550012195B /* LoginWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginWindow.xib; sourceTree = "<group>"; };
+		82CE99EC17CE18730098FDBB /* LoginProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginProtocol.h; sourceTree = "<group>"; };
+		82D075D117CE1683002D884D /* GisterPostWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GisterPostWindowController.h; sourceTree = "<group>"; };
+		82D075D217CE1683002D884D /* GisterPostWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GisterPostWindowController.m; sourceTree = "<group>"; };
+		82DB2FDA17CE1C9200A27BC1 /* LoginWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWindowController.h; sourceTree = "<group>"; };
+		82DB2FDB17CE1C9200A27BC1 /* LoginWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWindowController.m; sourceTree = "<group>"; };
+		82E96DAC17CE1A75005A936D /* GitHubUserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubUserInfo.h; sourceTree = "<group>"; };
+		82E96DAD17CE1A75005A936D /* GitHubUserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubUserInfo.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		826C463117CDF54400475425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826C463817CDF54400475425 /* AppKit.framework in Frameworks */,
+				826C463A17CDF54400475425 /* Foundation.framework in Frameworks */,
+				F3ADFA89AE144E8E8041C1C7 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8207D39717CE14B700DB9D2C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82DB2FDA17CE1C9200A27BC1 /* LoginWindowController.h */,
+				82DB2FDB17CE1C9200A27BC1 /* LoginWindowController.m */,
+				82D075D117CE1683002D884D /* GisterPostWindowController.h */,
+				82D075D217CE1683002D884D /* GisterPostWindowController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8207D39817CE14CF00DB9D2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				82B8266A17CE1C550012195B /* GisterPostWindow.xib */,
+				82B8266B17CE1C550012195B /* LoginWindow.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8207D39917CE14DB00DB9D2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				82E96DAC17CE1A75005A936D /* GitHubUserInfo.h */,
+				82E96DAD17CE1A75005A936D /* GitHubUserInfo.m */,
+				8219B5B117CE18CF0016E1EE /* Gist.h */,
+				8219B5B217CE18CF0016E1EE /* Gist.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8207D39A17CE14EB00DB9D2C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				82CE99EC17CE18730098FDBB /* LoginProtocol.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		8266171717CDFE0F00CC57F7 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				826E930017CE1B3600E51514 /* NetworkReachability.h */,
+				826E930117CE1B3600E51514 /* NetworkReachability.m */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		826C462B17CDF54400475425 = {
+			isa = PBXGroup;
+			children = (
+				82A9BD8917CE181A0048C15C /* Categories */,
+				8207D39A17CE14EB00DB9D2C /* Protocols */,
+				8207D39917CE14DB00DB9D2C /* Models */,
+				8207D39817CE14CF00DB9D2C /* Views */,
+				8207D39717CE14B700DB9D2C /* Controllers */,
+				8266171717CDFE0F00CC57F7 /* lib */,
+				826C463B17CDF54400475425 /* BTGisterPost */,
+				826C463617CDF54400475425 /* Frameworks */,
+				826C463517CDF54400475425 /* Products */,
+				39FBF1B603894D17B2BCC793 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		826C463517CDF54400475425 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				826C463417CDF54400475425 /* BTGisterPost.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		826C463617CDF54400475425 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				826C463717CDF54400475425 /* AppKit.framework */,
+				826C463917CDF54400475425 /* Foundation.framework */,
+				618325C7413F46188376DCEB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		826C463B17CDF54400475425 /* BTGisterPost */ = {
+			isa = PBXGroup;
+			children = (
+				826C464117CDF54400475425 /* BTGisterPost.h */,
+				826C464217CDF54400475425 /* BTGisterPost.m */,
+				826C463C17CDF54400475425 /* Supporting Files */,
+			);
+			path = BTGisterPost;
+			sourceTree = "<group>";
+		};
+		826C463C17CDF54400475425 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				826C463D17CDF54400475425 /* BTGisterPost-Info.plist */,
+				826C463E17CDF54400475425 /* InfoPlist.strings */,
+				826C464417CDF54400475425 /* BTGisterPost-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		82A9BD8917CE181A0048C15C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				82A9BD8A17CE18350048C15C /* NSAlert+EasyAlert.h */,
+				82A9BD8B17CE18350048C15C /* NSAlert+EasyAlert.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		826C463317CDF54400475425 /* BTGisterPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826C464717CDF54400475425 /* Build configuration list for PBXNativeTarget "BTGisterPost" */;
+			buildPhases = (
+				7925A4178AB244478F1226C4 /* Check Pods Manifest.lock */,
+				826C463017CDF54400475425 /* Sources */,
+				826C463117CDF54400475425 /* Frameworks */,
+				826C463217CDF54400475425 /* Resources */,
+				8FD8D33EB98B4A19B4C70630 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BTGisterPost;
+			productName = BTGisterPost;
+			productReference = 826C463417CDF54400475425 /* BTGisterPost.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		826C462C17CDF54400475425 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = donkeyfly;
+			};
+			buildConfigurationList = 826C462F17CDF54400475425 /* Build configuration list for PBXProject "BTGisterPost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 826C462B17CDF54400475425;
+			productRefGroup = 826C463517CDF54400475425 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				826C463317CDF54400475425 /* BTGisterPost */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		826C463217CDF54400475425 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826C464017CDF54400475425 /* InfoPlist.strings in Resources */,
+				82B8266D17CE1C550012195B /* LoginWindow.xib in Resources */,
+				82B8266C17CE1C550012195B /* GisterPostWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7925A4178AB244478F1226C4 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD8D33EB98B4A19B4C70630 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		826C463017CDF54400475425 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				826C464317CDF54400475425 /* BTGisterPost.m in Sources */,
+				826E930217CE1B3600E51514 /* NetworkReachability.m in Sources */,
+				82E96DAE17CE1A75005A936D /* GitHubUserInfo.m in Sources */,
+				82D075D317CE1683002D884D /* GisterPostWindowController.m in Sources */,
+				82DB2FDC17CE1C9200A27BC1 /* LoginWindowController.m in Sources */,
+				8219B5B317CE18CF0016E1EE /* Gist.m in Sources */,
+				82A9BD8C17CE18350048C15C /* NSAlert+EasyAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		826C463E17CDF54400475425 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				826C463F17CDF54400475425 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		826C464517CDF54400475425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		826C464617CDF54400475425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		826C464817CDF54400475425 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FBF1B603894D17B2BCC793 /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTGisterPost/BTGisterPost-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/UAGithubEngine\"",
+					Libraries/XcodeFrameworks,
+				);
+				INFOPLIST_FILE = "BTGisterPost/BTGisterPost-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = Libraries/XcodeFrameworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		826C464917CDF54400475425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39FBF1B603894D17B2BCC793 /* Pods.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_ENABLE_OBJC_GC = unsupported;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BTGisterPost/BTGisterPost-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers\"",
+					"\"${PODS_ROOT}/Headers/UAGithubEngine\"",
+					Libraries/XcodeFrameworks,
+				);
+				INFOPLIST_FILE = "BTGisterPost/BTGisterPost-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				LIBRARY_SEARCH_PATHS = Libraries/XcodeFrameworks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		826C462F17CDF54400475425 /* Build configuration list for PBXProject "BTGisterPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826C464517CDF54400475425 /* Debug */,
+				826C464617CDF54400475425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826C464717CDF54400475425 /* Build configuration list for PBXNativeTarget "BTGisterPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				826C464817CDF54400475425 /* Debug */,
+				826C464917CDF54400475425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 826C462C17CDF54400475425 /* Project object */;
+}
