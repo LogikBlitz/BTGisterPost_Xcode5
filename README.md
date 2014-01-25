@@ -1,6 +1,4 @@
-## For XCode 5. dev6 support
-This plugin now works in Xcode 5 dev6 and hopefully the next releases of Xcode:-D.
-This branch is experimental!
+## For XCode 5.\* 
 
 ## BTGisterPost for XCode 5.\*  
 A small plug-in for Xcode 5.\* that allows for posting of Gist's directly from Xcode.
@@ -8,8 +6,18 @@ It is purposely meant to be very small and not to intrusive.
 It is not the most pretty little thing, but it gets the job done.   
 Think of it as your friendly Gist hammer:-D.  
 
-__It has been tested in Xcode 5.0 dev 6 on OS X 10.9\* and will NOT work in Xcode 4 and below
+__It has been tested in Xcode 5.0.2 on OS X 10.9\* and will NOT work in Xcode 4 and below
 since Xcode 5 now uses ARC.__
+
+## Notes
+
+- Set `XCPluginHasUI` in `Info.plist` to `YES` to disable your plugin
+- Unlike Xcode 4, Xcode 5 uses ARC.
+- Add the build UUIDs for the versions of Xcode you wish to support to `DVTPlugInCompatibilityUUIDs` in `Info.plist`. This can be found by running:
+
+  <pre>defaults read /Applications/Xcode.app/Contents/Info DVTPlugInCompatibilityUUID</pre>
+  
+  Not doing this will effectually render the plugin unusable, since it will not be accessible thru Xcode.
 
 ### Getting started
 If you just want to install the plug-in the best way is to use the XCode package manager [Alcatraz](http://mneorr.github.com/Alcatraz).
