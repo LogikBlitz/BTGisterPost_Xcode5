@@ -27,14 +27,14 @@
 		618325C7413F46188376DCEB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		8219B5B117CE18CF0016E1EE /* Gist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gist.h; sourceTree = "<group>"; };
 		8219B5B217CE18CF0016E1EE /* Gist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gist.m; sourceTree = "<group>"; };
-		826C463417CDF54400475425 /* BTGisterPost.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BTGisterPost.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		826C463417CDF54400475425 /* BTGisterPost-Xcode5.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BTGisterPost-Xcode5.xcplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
 		826C463717CDF54400475425 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		826C463917CDF54400475425 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		826C463D17CDF54400475425 /* BTGisterPost-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTGisterPost-Info.plist"; sourceTree = "<group>"; };
+		826C463D17CDF54400475425 /* BTGisterPost-Xcode5-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BTGisterPost-Xcode5-Info.plist"; sourceTree = "<group>"; };
 		826C463F17CDF54400475425 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		826C464117CDF54400475425 /* BTGisterPost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTGisterPost.h; sourceTree = "<group>"; };
 		826C464217CDF54400475425 /* BTGisterPost.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BTGisterPost.m; sourceTree = "<group>"; };
-		826C464417CDF54400475425 /* BTGisterPost-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTGisterPost-Prefix.pch"; sourceTree = "<group>"; };
+		826C464417CDF54400475425 /* BTGisterPost-Xcode5-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BTGisterPost-Xcode5-Prefix.pch"; sourceTree = "<group>"; };
 		826E930017CE1B3600E51514 /* NetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkReachability.h; sourceTree = "<group>"; };
 		826E930117CE1B3600E51514 /* NetworkReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkReachability.m; sourceTree = "<group>"; };
 		82A9BD8A17CE18350048C15C /* NSAlert+EasyAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAlert+EasyAlert.h"; sourceTree = "<group>"; };
@@ -131,7 +131,7 @@
 		826C463517CDF54400475425 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				826C463417CDF54400475425 /* BTGisterPost.xcplugin */,
+				826C463417CDF54400475425 /* BTGisterPost-Xcode5.xcplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,9 +159,9 @@
 		826C463C17CDF54400475425 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				826C463D17CDF54400475425 /* BTGisterPost-Info.plist */,
+				826C463D17CDF54400475425 /* BTGisterPost-Xcode5-Info.plist */,
 				826C463E17CDF54400475425 /* InfoPlist.strings */,
-				826C464417CDF54400475425 /* BTGisterPost-Prefix.pch */,
+				826C464417CDF54400475425 /* BTGisterPost-Xcode5-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -178,9 +178,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		826C463317CDF54400475425 /* BTGisterPost */ = {
+		826C463317CDF54400475425 /* BTGisterPost-Xcode5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 826C464717CDF54400475425 /* Build configuration list for PBXNativeTarget "BTGisterPost" */;
+			buildConfigurationList = 826C464717CDF54400475425 /* Build configuration list for PBXNativeTarget "BTGisterPost-Xcode5" */;
 			buildPhases = (
 				7925A4178AB244478F1226C4 /* Check Pods Manifest.lock */,
 				826C463017CDF54400475425 /* Sources */,
@@ -192,9 +192,9 @@
 			);
 			dependencies = (
 			);
-			name = BTGisterPost;
+			name = "BTGisterPost-Xcode5";
 			productName = BTGisterPost;
-			productReference = 826C463417CDF54400475425 /* BTGisterPost.xcplugin */;
+			productReference = 826C463417CDF54400475425 /* BTGisterPost-Xcode5.xcplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = donkeyfly;
 			};
-			buildConfigurationList = 826C462F17CDF54400475425 /* Build configuration list for PBXProject "BTGisterPost" */;
+			buildConfigurationList = 826C462F17CDF54400475425 /* Build configuration list for PBXProject "BTGisterPost-Xcode5" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,7 +218,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				826C463317CDF54400475425 /* BTGisterPost */,
+				826C463317CDF54400475425 /* BTGisterPost-Xcode5 */,
 			);
 		};
 /* End PBXProject section */
@@ -377,16 +377,16 @@
 				DSTROOT = "$(HOME)";
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BTGisterPost/BTGisterPost-Prefix.pch";
+				GCC_PREFIX_HEADER = "BTGisterPost/BTGisterPost-Xcode5-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"${PODS_ROOT}/Headers\"",
 					"\"${PODS_ROOT}/Headers/UAGithubEngine\"",
 					Libraries/XcodeFrameworks,
 				);
-				INFOPLIST_FILE = "BTGisterPost/BTGisterPost-Info.plist";
+				INFOPLIST_FILE = "BTGisterPost/BTGisterPost-Xcode5-Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LIBRARY_SEARCH_PATHS = Libraries/XcodeFrameworks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "BTGisterPost-Xcode5";
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Debug;
@@ -400,16 +400,16 @@
 				DSTROOT = "$(HOME)";
 				GCC_ENABLE_OBJC_GC = unsupported;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BTGisterPost/BTGisterPost-Prefix.pch";
+				GCC_PREFIX_HEADER = "BTGisterPost/BTGisterPost-Xcode5-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"\"${PODS_ROOT}/Headers\"",
 					"\"${PODS_ROOT}/Headers/UAGithubEngine\"",
 					Libraries/XcodeFrameworks,
 				);
-				INFOPLIST_FILE = "BTGisterPost/BTGisterPost-Info.plist";
+				INFOPLIST_FILE = "BTGisterPost/BTGisterPost-Xcode5-Info.plist";
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				LIBRARY_SEARCH_PATHS = Libraries/XcodeFrameworks;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "BTGisterPost-Xcode5";
 				WRAPPER_EXTENSION = xcplugin;
 			};
 			name = Release;
@@ -417,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		826C462F17CDF54400475425 /* Build configuration list for PBXProject "BTGisterPost" */ = {
+		826C462F17CDF54400475425 /* Build configuration list for PBXProject "BTGisterPost-Xcode5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				826C464517CDF54400475425 /* Debug */,
@@ -426,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		826C464717CDF54400475425 /* Build configuration list for PBXNativeTarget "BTGisterPost" */ = {
+		826C464717CDF54400475425 /* Build configuration list for PBXNativeTarget "BTGisterPost-Xcode5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				826C464817CDF54400475425 /* Debug */,
